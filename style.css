@@ -11,8 +11,6 @@ body {
     font-weight: bolder;
     padding-top: 0px;
     padding-bottom: 0px;
-   
-  
 }
 
 .fab {
@@ -20,12 +18,17 @@ body {
     justify-content: left;
     background-color: white;
     color: black;
-    padding: 5px;
-    margin:5px;
 }
 
   .fab:hover {
       opacity: 0.7;
+  }
+
+  #link {
+    font-size: 32px;
+    background-color: white;
+    color: #007bb5;
+    margin: 0px; 
   }
 
 #nav {
@@ -66,7 +69,7 @@ h2 {
     margin-top: 20%;
     margin-right: 10%;
     margin-left: 15%;
-    width: 175px;
+    width: 150px;
     height: 200px;
 }
 
@@ -87,9 +90,8 @@ p {
     margin-left: 50px;
 }
 
-.title {
-    background-color: #fad4d1;
-    color: #683d55;
+.dropdown {
+    
     font-size: 20px;
     font-weight: bolder;
     width: 330px;
@@ -101,6 +103,10 @@ p {
     position: absolute;
 }
 
+.btn {
+    background-color: #fad4d1;
+    color: #683d55;
+}
 /*Floating Back-To-Top Button*/
 #myBtn {
     background-color: #cac9c7;

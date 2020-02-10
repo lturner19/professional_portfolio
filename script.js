@@ -1,13 +1,10 @@
 $(document).ready(function () {
 
-$(document).onclick("button", openSite());
+  $(document).on("click", ".fab", function () {//in future give li's a class so that the document will only grab those specific ones
+  var a = $("<a href='https://github.com/lturner19'>");
+  $("i").append(a);
+});
 
-function openSite(){
-    var url ="https://github.com/lturner19"
-    var uL = $("<ul>")
-    var a = $("<a>" + url)
-}
-$(".icon").append(uL);
 
 
 });
