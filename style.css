@@ -11,7 +11,22 @@ body {
     font-weight: bolder;
     padding-top: 0px;
     padding-bottom: 0px;
+   
+  
 }
+
+.fab {
+    font-size: 30px;
+    justify-content: left;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin:5px;
+}
+
+  .fab:hover {
+      opacity: 0.7;
+  }
 
 #nav {
     margin-right: 0px;
@@ -61,16 +76,7 @@ p {
     text-align: justify;
 }
 
-footer {
-    background-color: #cac9c7;
-    color: #f8e9d4;
-    text-align: center;
-    border-top: 2px solid #98999b;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    bottom: 0;
-}
+
 
 .img {
     width: 350px;
@@ -120,3 +126,24 @@ a, a:active, a:hover, a:link, a:focus {
     text-decoration: none;
     color: #955374;
 }
+
+footer {
+    background-color: #cac9c7;
+    color: #f8e9d4;
+    text-align: center;
+    border-top: 2px solid #98999b;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    bottom: 0;
+}
+
+
+/* May try later */
+/* body, html, .main {
+    height: 100%;
+  }
+  
+  section {
+    min-height: 100%;
+  } */
