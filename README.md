@@ -23,10 +23,8 @@ There are three (3) internal links that will take the user to the following page
 The following programs and websites were used to code the pages within this portfolio:
 
 - [Bootstrap 4](https://www.getbootstrap.com) 
-- w3schools
-- Codecademy
+-[StackOverflow]
 - Unsplash.com (images)
-- [Codenvy](https://codeconvey.com/simple-css-sticky-footer/)
 
 
 
