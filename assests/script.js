@@ -1,13 +1,4 @@
-$(document).ready(function () {
 
-  $(document).on("click", ".fab", function () {//in future give li's a class so that the document will only grab those specific ones
-  var a = $("<a href='https://github.com/lturner19'>");
-  $("i").append(a);
-});
-
-
-
-});
 
 //may try later
 /* $(document).ready(function(){

@@ -71,7 +71,12 @@ p {
 
 
 /* portfolio section */
+.portfolio {
+    font-size 20px;
+    text-align: center;
+}
 .img {
+    border: 1px solid grey;
     width: 350px;
     height: 250px;
     float: left;
