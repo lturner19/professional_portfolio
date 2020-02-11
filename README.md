@@ -1,36 +1,45 @@
 # Professional Portfolio
 
 
-## Description
+## **Description**
 This portfolio showcases my ability to use HTML, CSS, and Bootstrap 4 to create a responsive website.
- A reponsive website allows users to have an optimized browsing experince when using devices with various screen sizes such as a tablet, cellphone, desktop, etc.
+ A responsive website allows users to have an optimized browsing experience when using devices with various screen sizes such as a tablet, cellphone, desktop, etc.
 
 This portfolio has been created while attending the Triology Education Services' Full-Stack Coding Bootcamp.
 
-## Table of Contents
+<br>
 
-There are three (3) internal links that will take the user to the following pages below:
+## **Table of Contents**
+
+There are three (3) internal links that link to the following pages below:
 
 1. Portfolio
-    - Current 
+    - Current bootcamp projects
 
 2. Resume
+    - pdf file
 
 3. Contact
+    - Social links
+    
 
+<br>
 
+### **Preview**
+![image](assests/Images/portfolio_preview.jpg)
 
+<br>
 
-### Resources
+### **Resources**
 The following programs and websites were used to code the pages within this portfolio:
 
 - [Bootstrap 4](https://www.getbootstrap.com) 
 
 - Background: www.Unsplash.com
 
+<br>
 
-
-### Badges
+### **Badges**
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://lturner19.github.io/professional_portfolio/)
 
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
