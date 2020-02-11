@@ -24,9 +24,19 @@ body {
 }
 
 .nav-link {
-    color: #f8e9d4;
+    color: #8c6984;
     font-size: 20px;
     font-family: 'Righteous', cursive;
+}
+
+/* internal links */
+a,
+a:active,
+a:hover,
+a:link,
+a:focus {
+    color: #955374;
+    text-decoration: none;
 }
 
 /* containers */
@@ -44,6 +54,7 @@ h1 {
     margin-bottom: 5%;
     padding: 25px;
     width: 960px;
+    max-width: 100%;
     box-shadow: 0 0 20px 2px;
 }
 
@@ -72,12 +83,13 @@ p {
 
 /* portfolio section */
 .portfolio {
-    font-size 20px;
+    font-size: 20px;
     text-align: center;
 }
 .img {
     border: 1px solid grey;
     width: 350px;
+    max-width: 100%;
     height: 250px;
     float: left;
     padding: 10px;
@@ -86,8 +98,6 @@ p {
 }
 
 .dropdown {
-    font-size: 20px;
-    font-weight: bolder;
     width: 330px;
     text-align: center;
     margin: 129px;
@@ -100,32 +110,37 @@ p {
 .btn {
     background-color: #fad4d1;
     color: #683d55;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-/* portfolio links */
-a,
-a:active,
-a:hover,
-a:link,
-a:focus {
-    color: #955374;
-    text-decoration: none;
-}
 
 /* social icons */
 .fab {
     font-size: 35px;
-    justify-content: left;
     background-color: white;
     color: black;
     padding: 10px;
-    float: right;
+    margin: 10px;
 }
 
 .fab:hover {
     opacity: 0.7;
 }
 
+#icon{
+    margin-top: 20px;
+}
+
+
+table{
+    margin: 0 auto;
+}
+td{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
 
 footer {
     background-color: #cac9c7;
@@ -142,7 +157,7 @@ footer {
 
 /*Floating Back-To-Top Button*/
 #myBtn {
-    background-color: #cac9c7;
+    background-color: #d0b2d1;
     border-color: #98999b;
     border-radius: 4px;
     color: #fcfbf9;
@@ -159,7 +174,7 @@ footer {
 
 /*On Hover Color Change*/
 #myBtn:hover {
-    background-color: #f9cebe;
+    background-color: #c0a4b7;
 }
 
 /* May try later */
