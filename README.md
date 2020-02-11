@@ -12,6 +12,7 @@ This portfolio has been created while attending the Triology Education Services'
 There are three (3) internal links that will take the user to the following pages below:
 
 1. Portfolio
+    - Current 
 
 2. Resume
 
@@ -19,12 +20,13 @@ There are three (3) internal links that will take the user to the following page
 
 
 
+
 ### Resources
 The following programs and websites were used to code the pages within this portfolio:
 
 - [Bootstrap 4](https://www.getbootstrap.com) 
--[StackOverflow]
-- Unsplash.com (images)
+
+- Background: www.Unsplash.com
 
 
 
