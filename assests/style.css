@@ -24,7 +24,7 @@ body {
 }
 
 .nav-link {
-    color: #8c6984;
+    color: #8fd0ca;
     font-size: 20px;
     font-family: 'Righteous', cursive;
 }
@@ -35,7 +35,7 @@ a:active,
 a:hover,
 a:link,
 a:focus {
-    color: #955374;
+    color:#0cc6cd;
     text-decoration: none;
 }
 
@@ -80,7 +80,6 @@ p {
     text-align: justify;
 }
 
-
 /* portfolio section */
 .portfolio {
     font-size: 20px;
@@ -94,7 +93,6 @@ p {
     float: left;
     padding: 10px;
     margin: 20px 0px 20px 50px;
-
 }
 
 .dropdown {
@@ -157,10 +155,10 @@ footer {
 
 /*Floating Back-To-Top Button*/
 #myBtn {
-    background-color: #d0b2d1;
+    background-color: #cac9c7;
     border-color: #98999b;
     border-radius: 4px;
-    color: #fcfbf9;
+    font-weight:bolder;
     font-size: 18px;
     max-width: 50px;
     width: 100%;
@@ -169,19 +167,9 @@ footer {
     right: 18.5%;
     left: 95%;
     position: fixed;
-
 }
 
 /*On Hover Color Change*/
 #myBtn:hover {
-    background-color: #c0a4b7;
+    background-color: #8fd0ca;
 }
-
-/* May try later */
-/* body, html, .main {
-    height: 100%;
-  }
-  
-  section {
-    min-height: 100%;
-  } */
