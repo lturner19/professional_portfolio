@@ -179,7 +179,7 @@ td{
     background-color: #8fd0ca;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 574px){
     .nav {
         display: inline-block;
     }
