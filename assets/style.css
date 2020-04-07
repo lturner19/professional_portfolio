@@ -1,40 +1,17 @@
-body{
+/* Global styles */
+body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
-    text-align: center;
 }
 
-html{
+html {
     position: relative;
 }
 
-.home {
-    background-image: url("./Images/ben-kolde-bs2Ba7t69mM-unsplash\ \(1\).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
-#intro{
-    background-color: whitesmoke;
-    border: 2px solid #98999b;
-    opacity: 0.9;
-    border-radius: 5px;
-    max-width: 60%;
-    margin: 100px auto;
-    padding: 10px;
-    box-shadow: 0 0 5px 2px;
-
-}
-
-h1, .info{
-    color:#203a55;
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-}
-
-/* Heading  */
+/*-----------------Navbar styling--------------- */
+/* Nav-link container */
 .jumbotron {
     background-color: #98999b;
     color: #f9cebe;
@@ -42,13 +19,15 @@ h1, .info{
     padding-bottom: 0px;
 }
 
-/* internal links */
+
+/* links to other pages */
 .nav-link {
-    color: #8fd0ca;
+    color:#94d2dd;
     font-family: 'Righteous', cursive;
     font-size: 20px;
 }
 
+/* Styling for nav-links */
 a,
 a:active,
 a:hover,
@@ -58,24 +37,52 @@ a:focus {
     text-decoration: none;
 }
 
+/* ------------Home page------------------------ */
+
+/* background for index.html page */
+.home {
+    background-image: url("./Images/ben-kolde-bs2Ba7t69mM-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ /* container styling for index.html */
+#intro{
+    background-color: whitesmoke;
+    border: 2px solid #98999b;
+    opacity: 0.9;
+    border-radius: 5px;
+    max-width: 60%;
+    margin: 80px auto;
+    padding: 10px;
+    box-shadow: 0 0 5px 2px;
+
+}
+
+/* header and paragraph styling */
+h1, .info{
+    color:#203a55;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+/*--------------about page----------- */
 
 h2 {
     color:#203a55;
     font-weight: bolder;
     text-align: left;
+    border-bottom: 1px solid gray;
     margin: 10px;
-    padding: 20px;
-    border-bottom: 2px solid grey;
 }
 
-/* about section */
 #profile-img {
     margin: 20% 10% 0% 20%;
     width: 150px;
     height: 200px;
 }
 
-
+/* about paragraph styling */
 p {
     padding: 10px;
     margin: 10px 30px 10px 0px;
@@ -83,15 +90,14 @@ p {
     font-size: 18px;
 }
 
-
-
+/* Styling for cards displaying programming languages */
 .card .nav-item {
   position: relative;
 }
 
 .card-title{
     text-align: center;
-    font-size: 24px;
+    font-size: 17px;
     font-family: 'Righteous', cursive;
 }
 
@@ -99,17 +105,18 @@ p {
     width: 120px;
     height: 120px;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 4px;
     margin-right: 20px;
 }
 
-/* portfolio section */
+/* ----------portfolio section------------------- */
 
-.portfolio,.contact{
+/* background styling for three pages */
+.portfolio,.contact, .about {
     background-image: url("./Images/so-white.png");
 }
-
-#portfolio,#about, #contact {
+/* container styling for the following pages */
+#portfolio,#about, #languages {
     background-color:#fcfbf9;
     border: 2px solid whitesmoke;
     border-radius: 5px;
@@ -119,6 +126,7 @@ p {
     margin-bottom: 20px;
 }
 
+/* App screenshots */
 .img {
     border: 1px solid grey;
     width: 350px;
@@ -129,6 +137,14 @@ p {
     margin: 20px 0px 20px 50px;
 }
 
+/* color of dropdown button */
+.btn {
+    background-color: #fad4d1;
+    color: #683d55;
+    font-weight: bold;
+}
+
+/* Display repo and web page links */
 .dropdown {
     text-align: center;
     width: 330px;
@@ -140,17 +156,42 @@ p {
     clear: both;
 }
 
-.btn {
-    background-color: #fad4d1;
-    color: #683d55;
-    font-weight: bold;
+/* ------------contact page----------- */
+
+#contact {
+    background-color:#fcfbf9;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    max-width: 980px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
+/* clipart */
+.question-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
 
-/* contact page */
+.question, label{
+    color:#203a55;
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ------------Begin footer----------- */
+
+.sticky-footer {
+    background-color:#98999b;
+    border-top: 2px solid #203a55;
+    width: 100%;
+    bottom: 0;
 
 
-/* Begin footer */
+}
 
 /* Github icon */
 .fab {
@@ -169,14 +210,6 @@ p {
     color: #007bb5;
 }
 
-#footer {
-    background-color: #98999b;
-    border-top: 2px solid #40b5bc;
-    font-size: 18px;
-    padding: 15px;
-    width: 100%;
-    position: absolute;
-}
 
 .contact-info{
     padding: 0px;
