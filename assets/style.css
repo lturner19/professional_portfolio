@@ -101,17 +101,18 @@ img {
 
 /* portfolio section */
 
-.portfolio, .contact{
+.portfolio,.contact{
     background-image: url("./Images/so-white.png");
 }
 
-#portfolio{
+#portfolio,#contact {
     background-color:#fcfbf9;
     border: 2px solid whitesmoke;
     border-radius: 5px;
     max-width: 960px;
-    margin: 100px auto;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .img {
@@ -142,6 +143,9 @@ img {
 }
 
 
+/* contact page */
+
+
 /* Begin footer */
 
 /* Github icon */
@@ -165,7 +169,7 @@ img {
     background-color: #98999b;
     border-top: 2px solid #40b5bc;
     font-size: 18px;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     position: absolute;
 }
