@@ -60,7 +60,7 @@ a:focus {
 
 
 h2 {
-    color: ;
+    color:#203a55;
     font-weight: bolder;
     text-align: left;
     margin: 10px;
@@ -80,6 +80,7 @@ p {
     padding: 10px;
     margin: 10px 30px 10px 0px;
     text-align: justify;
+    font-size: 18px;
 }
 
 
@@ -94,9 +95,12 @@ p {
     font-family: 'Righteous', cursive;
 }
 
-img {
-    width: 150px;
-    height: 150px;
+.card-img-top {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* portfolio section */
@@ -105,7 +109,7 @@ img {
     background-image: url("./Images/so-white.png");
 }
 
-#portfolio,#contact {
+#portfolio,#about, #contact {
     background-color:#fcfbf9;
     border: 2px solid whitesmoke;
     border-radius: 5px;
