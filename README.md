@@ -1,45 +1,60 @@
 # Professional Portfolio
 
+## INTRODUCTION
 
-## **Description**
-This portfolio showcases my ability to use HTML, CSS, and Bootstrap 4 to create a responsive website.
+As a beginning web developer enrolled in full stack bootcamp, I want a website to allow potential employers to view my current body of work.
+
+## DESCRIPTION
+
+A portfolio to showcases my ability to use HTML, CSS, and Bootstrap 4 to create a responsive website.
  A responsive website allows users to have an optimized browsing experience when using devices with various screen sizes such as a tablet, cellphone, desktop, etc.
 
 This portfolio has been created while attending the Triology Education Services' Full-Stack Coding Bootcamp.
 
 <br>
 
-## **Table of Contents**
+## FEATURES
 
-There are three (3) internal links that link to the following pages below:
+There are five (5) pages to visit, which are:
 
-1. Portfolio
+1. Homepage
+    - Introduction to me
+
+2. About page
+    - Detailed information about my background
+
+3. Portfolio
     - Current bootcamp projects
 
-2. Resume
-    - pdf file
+4. Resume
+    - PDF file
 
-3. Contact
-    - Social links
+5. Contact
+    - From to send messages 
     
 
 <br>
 
-### **Preview**
+## PREVIEW
 ![image](assests/Images/portfolio_preview.jpg)
 
 <br>
 
-### **Resources**
+### RESOURCES
 The following programs and websites were used to code the pages within this portfolio:
 
 - [Bootstrap 4](https://www.getbootstrap.com) 
 
+- Homepage Background: Ben Kolde on www.Unsplash.com
+
 - Background: www.Unsplash.com
+
+- Question Clipart: www.freepik.com
+
 
 <br>
 
-### **Badges**
+### BADGES
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://lturner19.github.io/professional_portfolio/)
 
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
