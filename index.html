@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    
     <header>
         <div class="banner">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -31,16 +32,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item dropdown" id="nav-dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -54,14 +55,16 @@
             </nav>
         </div>
     </header>
-    <div class="hero-image">
+
+    <div class="hero-image" id="home">
         <div class="hero-text">
           <h1 style="font-size:50px">My name is Leandra Turner</h1>
           <h3> and I am a Full Stack Developer</h3>
         </div>
       </div>
 
-        <section class="about">
+
+        <section class="about" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -113,7 +116,7 @@
         </section>
         <section class="language">
             <div class="container">
-                <div class="row" id="card">
+                <div class="row">
                     <div class="col-md-12">
                         <div class="row2">
                             <div class="col-md-12">
@@ -121,7 +124,7 @@
                             </div>
                         </div>
                     </div>                
-                    <div class="row">
+                    <div class="row" id="card">
                     <div class="col-sm-6 col-md-2">
                         <div class="card  mb-3">
                             <!-- set a width on the image otherwise it will expand to full width       -->
@@ -186,9 +189,7 @@
                     <div class="col-sm-6 col-md-2">
                         <div class="card mb-3">
                             <!-- set a width on the image otherwise it will expand to full width       -->
-                            <img class="card-img-top img-fluid"
-                                src="https://tse1.mm.bing.net/th?id=OIP.wqYF-8Dmh7LhtLkKfERc3QHaHa&pid=Api&P=0&w=300&h=300"
-                                alt="vue.js" />
+                            <img class="card-img-top img-fluid" src="assets/Images/vue-icon.jpg" alt="vue.js icon"/>
                             <div class="card-body">
                                 <h3 class="card-title">Vue.js</h3>
                             </div>
@@ -408,6 +409,8 @@
                     </div>
                 </div>
             </footer>
+
+
 </body>
 
 </html>
