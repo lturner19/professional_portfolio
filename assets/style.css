@@ -3,86 +3,106 @@ body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    justify-content: center;
+    text-align: center;
+    
+    
 }
 
 html {
     position: relative;
+    min-height: 100%;
+}
+
+/* headers for about, portfolio, contact pages */
+h2 {
+    color:#203a55;
+    font-weight: bolder;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+ 
+}
+
+/* background styling for three pages */
+.portfolio,.contact, .about, .language {
+    background-image: url("./Images/so-white.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+/* spacing between each section */
+.col-md-12, #message, #message-img{
+    margin-top: 50px;
 }
 
 /*-----------------Navbar styling--------------- */
+
 /* Nav-link container */
-.jumbotron {
+.banner {
     background-color: #98999b;
-    color: #f9cebe;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    color: #94d2dd;
+    height: 70px;
 }
 
-
-/* links to other pages */
+/* Styling links to other pages */
 .nav-link {
-    color:#94d2dd;
+    color:#94d2dd !important;
     font-family: 'Righteous', cursive;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-/* Styling for nav-links */
+/* Nav-link color change*/
 a,
 a:active,
 a:hover,
 a:link,
 a:focus {
-    color:#0cc6cd;
-    text-decoration: none;
+color:#0cc6cd !important;
+}
+
+/* background of dropdown uniformly gray */
+.dropdown-menu, 
+.dropdown-item { 
+   background-color: #98999b;
 }
 
 /* ------------Home page------------------------ */
 
-/* background for index.html page */
-.home {
-    background-image: url("./Images/ben-kolde-bs2Ba7t69mM-unsplash\ \(1\).jpg");
+/* Controls background image */
+.hero-image {
+    background-image: url("./Images/plush-design-studio-q10VITrVYUM-unsplash\ \(1\).jpg");
+    width: 100%;
+    height: 750px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- }
-
- /* container styling for index.html */
-#intro{
-    background-color: whitesmoke;
-    border: 2px solid #98999b;
-    opacity: 0.9;
-    border-radius: 5px;
-    max-width: 60%;
-    margin: 80px auto;
-    padding: 10px;
-    box-shadow: 0 0 5px 2px;
-
-}
-
-/* header and paragraph styling */
-h1, .info{
-    color:#203a55;
-    font-family: 'Comfortaa', cursive;
+    position: relative;
+  }
+  
+  /* container styling */
+  .hero-text {
     text-align: center;
-}
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#203a55;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 2px;
+    padding: 10px;
+  }
 
 /*--------------about page----------- */
 
-h2 {
-    color:#203a55;
-    font-weight: bolder;
-    text-align: left;
-    border-bottom: 1px solid gray;
-    margin: 10px;
-}
-
 #profile-img {
-    margin: 20% 10% 0% 20%;
-    width: 150px;
-    height: 200px;
+    margin: 20%, 10%, 0%, 20%;
+    width: 190px;
+    height: 250px;
 }
 
-/* about paragraph styling */
+/* paragraph styling */
 p {
     padding: 10px;
     margin: 10px 30px 10px 0px;
@@ -90,41 +110,33 @@ p {
     font-size: 18px;
 }
 
-/* Styling for cards displaying programming languages */
+/*---------------Programming Languages------------------*/
+
 .card .nav-item {
   position: relative;
 }
 
+/* card text */
 .card-title{
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Righteous', cursive;
 }
 
+/* Icon images */
 .card-img-top {
     width: 120px;
     height: 120px;
     padding: 10px;
-    margin-left: 4px;
-    margin-right: 20px;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+/* centering cards */
+#card{
+    margin-left: 7%;
 }
 
 /* ----------portfolio section------------------- */
-
-/* background styling for three pages */
-.portfolio,.contact, .about {
-    background-image: url("./Images/so-white.png");
-}
-/* container styling for the following pages */
-#portfolio,#about, #languages {
-    background-color:#fcfbf9;
-    border: 2px solid whitesmoke;
-    border-radius: 5px;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    margin-bottom: 20px;
-}
 
 /* App screenshots */
 .img {
@@ -137,7 +149,7 @@ p {
     margin: 20px 0px 20px 50px;
 }
 
-/* color of dropdown button */
+/* dropdown button coloring */
 .btn {
     background-color: #fad4d1;
     color: #683d55;
@@ -145,7 +157,7 @@ p {
 }
 
 /* Display repo and web page links */
-.dropdown {
+.dropdown-one {
     text-align: center;
     width: 330px;
     margin: 129px;
@@ -159,9 +171,6 @@ p {
 /* ------------contact page----------- */
 
 #contact {
-    background-color:#fcfbf9;
-    border: 2px solid whitesmoke;
-    border-radius: 5px;
     max-width: 980px;
     padding: 20px;
     margin-bottom: 20px;
@@ -169,28 +178,26 @@ p {
 
 /* clipart */
 .question-img {
-    width: 300px;
-    height: 300px;
+    width: 70%;
     margin-top: 50px;
 }
 
-.question, label{
+/* Question and checkbox text */
+.question, .custom-control{
     color:#203a55;
-    text-align: center;
     font-size: 24px;
+    text-align: center;
     padding: 0px;
     margin: 0px;
 }
 
 /* ------------Begin footer----------- */
 
-.sticky-footer {
-    background-color:#98999b;
-    border-top: 2px solid #203a55;
-    width: 100%;
-    bottom: 0;
-
-
+footer{
+  border-top:2px solid #203a55;
+  width: 100%;
+  background-color:#98999b;
+  position: absolute;
 }
 
 /* Github icon */
@@ -212,8 +219,8 @@ p {
 
 
 .contact-info{
-    padding: 0px;
-    margin: 0px;
+    padding: 10px;
+    margin: 10px;
 }
 
 h4, h5 {
@@ -245,9 +252,18 @@ h4, h5 {
     background-color: #8fd0ca;
 } */
 
+@media only screen and (max-width: 982px){
+    .home{
+        background-size: auto;
+    }
+}
+
 @media only screen and (max-width: 400px){
     .nav {
         display: inline-block;
+    }
+    .home{
+        background-size: auto;
     }
     .img{
         margin-left: 0px;
@@ -255,14 +271,19 @@ h4, h5 {
     .btn{
         margin-right: 90px;
     }
-    #myBtn {
-        display: none;
+    .card-img-top{
+        margin-left: 35%;
+        margin-right: 50%;
     }
+   
 }
-
 
 @media only screen and (max-width: 768px){
   #myBtn {
       left: 90%;
+  }
+
+  .footer-nav{
+      display:none;
   }
 }
