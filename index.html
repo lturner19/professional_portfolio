@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <Title>Leandra's Bio</Title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -14,82 +15,399 @@
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Document</title>
 </head>
 
-<header>
-    <div class="jumbotron text-center">
-        <div class="container" id="nav">
-            <nav>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="assets\LT_2020_Resume.pdf">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+<body>
+    <header>
+        <div class="banner">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown" id="nav-dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Resume</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="assets/LT_2020_Resume.pdf">PDF</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
-    </div>
-</header>
+    </header>
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:50px">My name is Leandra Turner</h1>
+          <h3> and I am a Full Stack Developer</h3>
+        </div>
+      </div>
 
-<body class="home">
-    <div class="container" id="intro">
-        <p class="info">Hello my name is</p>
-        <h1>Leandra Turner</h1>
-        <p class="info">I am currently enrolled in a Full Stack Web Development Bootcamp</p>
-    </div>
-
-
-    <footer class="sticky-footer">
-        <div class="container" id="footer">
-            <div class="row text-center">
-                <div class="col-sm-2">
-                    <div class="social">
-                        <a href="https://github.com/lturner19"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/leandraturner"><i class="fab fa-linkedin" id="link"></i></a>
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row2">
+                            <div class="col-md-12">
+                                <h2>ABOUT ME</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img class="img-thumbnail" id="profile-img" src="assets/Images/Leandra-Profile.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <p>Leandra Turner recieved her BA degree in Biology from Concordia Univeristy
+                                Texas in 2006.
+                                Thereafter, she began working for Ascension Health, formerly Seton
+                                Healthcare Network, in the
+                                Histology department.
+                                While there she earned her certification as a Histology Technician in 2009
+                                and was able to
+                                perform various aspects of histology to include: routine histology, muscle
+                                enzyme
+                                histochemistry, electron microscopy, immunohistochemistry.
+                            </p>
+                            <p>She currently works in a Mohs dermatology clinic in Austin,TX, and is
+                                simutanousely taking a web
+                                development bootcamp course. She will finish the Triology Educations
+                                Services' Full-Stack Coding
+                                Bootcamp, through the University of Texas at Austin, in May 2019.
+                                After graduating she plans to pursue a career in the coding field.
+                            </P>
+                            <p>Leandra prefers to spend her free time involved with her dog Callie. She also
+                                enjoys trying her hand at various hobbies that include: baking, knitting,
+                                gardening, and flower
+                                arranging.
+                                She also has a passion for fashion and has been known to be a "personal
+                                stylist" for her friends
+                                and family.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <nav>
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="assets\LT_2020_Resume.pdf">Resume</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-sm-4">
-                    <p class="contact-info"><i class="far fa-envelope"></i> lturner19@protonmail.com</p>
-                    <p class="contact-info"><i class="fas fa-mobile-alt"></i> 512.673.6253</p>
+            </div>
+        </section>
+        <section class="language">
+            <div class="container">
+                <div class="row" id="card">
+                    <div class="col-md-12">
+                        <div class="row2">
+                            <div class="col-md-12">
+                                <h2>Languages and Frameworks</h2>
+                            </div>
+                        </div>
+                    </div>                
+                    <div class="row">
+                    <div class="col-sm-6 col-md-2">
+                        <div class="card  mb-3">
+                            <!-- set a width on the image otherwise it will expand to full width       -->
+                            <img class="card-img-top img-fluid" src="assets/Images/html5.png" alt="html 5 icon" />
+                            <div class="card-body">
+                                <h3 class="card-title">HTML 5</h3>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col-sm-4 -->
+                    <div class="col-sm-6 col-md-2">
+                        <div class="card mb-3">
+                            <!-- set a width on the image otherwise it will expand to full width       -->
+                            <img class="card-img-top img-fluid" src="assets/Images/iconfinder_badge-css-3_317756.png"
+                                alt="css 3 icon" />
+                            <div class="card-body">
+                                <h3 class="card-title">CSS 3</h3>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col-sm-4 -->
+                    <div class="col-sm-6 col-md-2">
+                        <div class="card mb-3">
+                            <!-- set a width on the image otherwise it will expand to full width       -->
+                            <img class="card-img-top img-fluid"
+                                src="https://ya-webdesign.com/transparent450_/vector-javascript-14.png"
+                                alt="javascript icon" />
+                            <div class="card-body">
+                                <h3 class="card-title">Javascript</h3>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col-sm-4 -->
+                    <div class="col-sm-6 col-md-2">
+                        <div class="card mb-3">
+                            <!-- set a width on the image otherwise it will expand to full width       -->
+                            <img class="card-img-top img-fluid"
+                                src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+                                alt="node.js icon" />
+                            <div class="card-body">
+                                <h3 class="card-title">Node.js</h3>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col-sm-4 -->
+                    <div class="col-sm-6 col-md-2">
+                        <div class="card mb-3">
+                            <!-- set a width on the image otherwise it will expand to full width       -->
+                            <img class="card-img-top img-fluid"
+                                src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1920px-MySQL.svg.png"
+                                alt="mysql icon" />
+                            <div class="card-body">
+                                <h3 class="card-title">MySQL</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    <div class="col-sm-6 col-md-2">
+                        <div class="card mb-3">
+                            <!-- set a width on the image otherwise it will expand to full width       -->
+                            <img class="card-img-top img-fluid"
+                                src="https://tse1.mm.bing.net/th?id=OIP.wqYF-8Dmh7LhtLkKfERc3QHaHa&pid=Api&P=0&w=300&h=300"
+                                alt="vue.js" />
+                            <div class="card-body">
+                                <h3 class="card-title">Vue.js</h3>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>​
+        </section>
+        <section class="portfolio">
+            <div class="container" id="portfolio">
+                <div class="row1">
+                    <div class="col-md-12">
+                        <div class="row2">
+                            <div class="col-md-12">
+                                <h2>PORTFOLIO</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img" src="assets/Images/preview.png" alt="covid app preview">
+                            <div class="dropdown-one">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" area-haspopup="true" aria-expanded="false">COVID-19 PATIENT
+                                    DB</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item"
+                                        href="https://github.com/lturner19/COVID-19_Patient_db">Repository</a>
+                                    <a class="dropdown-item"
+                                        href="https://secure-sands-03885.herokuapp.com/">Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img" src="assets/Images/opening_page.jpg" alt="Casa-Cocktail preview">
+                            <div class="dropdown-one">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CASA
+                                    COCKTAILS</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item"
+                                        href="https://github.com/lturner19/Casa-Cocktail">Repository</a>
+                                    <a class="dropdown-item"
+                                        href="https://rimaodolski.github.io/Casa-Cocktail/">Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img" src="assets/Images/Start_quiz.jpg" alt="code quiz image">
+                            <div class="dropdown-one">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HISTOLOGY
+                                    QUIZ</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item"
+                                        href="https://github.com/lturner19/Histology_Quiz">Repository</a>
+                                    <a class="dropdown-item"
+                                        href="https://lturner19.github.io/Histology_Quiz/">Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img" src="assets/Images/weather_dashboard.jpg" alt="weather dashboard image">
+                            <div class="dropdown-one">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WEATHER
+                                    DASHBOARD</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item"
+                                        href="https://github.com/lturner19/weather_dashboard">Repository</a>
+                                    <a class="dropdown-item"
+                                        href="https://lturner19.github.io/weather_dashboard/">Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img" src="assets/Images/pw_generator.jpg" alt="password generator image">
+                            <div class="dropdown-one">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PASSWORD
+                                    GENERATOR</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item"
+                                        href="https://github.com/lturner19/Random-Password-Generator">Repository</a>
+                                    <a class="dropdown-item"
+                                        href="https://lturner19.github.io/Random-Password-Generator/">Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img" src="assets/Images/scheduler_preview.jpg" alt="day planner image">
+                            <div class="dropdown-one">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DAY
+                                    PLANNER</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item"
+                                        href="https://github.com/lturner19/jQuery_DayPlanner">Repository</a>
+                                    <a class="dropdown-item"
+                                        href="https://lturner19.github.io/jQuery_DayPlanner/">Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img" src="assets/Images/eat_burger_preview.jpg" alt="Happy Burger image">
+                            <div class="dropdown-one">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Happy
+                                    Burger</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item"
+                                        href="https://github.com/lturner19/Happy_Burger">Repository</a>
+                                    <a class="dropdown-item"
+                                        href="https://secure-sands-03885.herokuapp.com/">Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img" src="assets/Images/generated_team.jpg" alt="team roster image">
+                            <div class="dropdown-one">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TEAM
+                                    ROSTER</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item"
+                                        href="https://github.com/lturner19/Team-Roster">Repository</a>
+                                    <a class="dropdown-item"
+                                        href=" https://lturner19.github.io/Team-Roster/">Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container" id="contact">
+                <div class="row" id="">
+                    <div class="col-sm-6" id="message-img">
+                        <img class="question-img" src="assets/Images/2368872.jpg" alt="bubble with question mark" />
+                    </div>
+                    <div class="col-sm-6" id="message">
+                        <p class="question">Have a question?</p>
+                        <p class="question">Please send a message</p>
+                        <form class="mt-4 mt-md-0">
+                            <div class="form-group">
+                                <label for="formGroupExampleInput" class="sr-only">Name</label>
+                                <input type="text" class="form-control bg-faded-4" id="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput" class="sr-only">Email</label>
+                                <input class="form-control bg-faded-4" type="email" value="" id="email"
+                                    placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput" class="sr-only">Phone Number</label>
+                                <input class="form-control bg-faded-4" type="email" value="" id="email"
+                                    placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput" class="sr-only">Message</label>
+                                <textarea class="form-control bg-faded-4" id="message" rows="3"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="spam">
+                                <label class="custom-control-label" for="spam">Are you a human?</label>
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-sm mt-2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer class="sticky-footer">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-sm-6 col-md-2">
+                            <div class="social">
+                                <a href="https://github.com/lturner19"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/leandraturner"><i class="fab fa-linkedin"
+                                        id="link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-0 col-md-6">
+                            <nav class="footer-nav">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="assets\LT_2020_Resume.pdf">Resume</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <p class="contact-info"><i class="far fa-envelope"></i> lturner19@protonmail.com</p>
+                            <p class="contact-info"><i class="fas fa-mobile-alt"></i> 512.673.6253</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 </body>
 
 </html>
