@@ -25,7 +25,7 @@ h2 {
 
 /* background styling for three pages */
 .portfolio,.contact, .about, .language {
-    background-image: url("./Images/so-white.png");
+    background-image: url("../Images/so-white.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -71,7 +71,7 @@ color:#0cc6cd !important;
 
 /* Controls background image */
 .hero-image {
-    background-image: url("./Images/andrijana-bozic-x3qtKmUj6JY-unsplash.jpg");
+    background-image: url("../Images/andrijana-bozic-x3qtKmUj6JY-unsplash.jpg");
     width: 100%;
     height: 750px;
     background-position: center;
