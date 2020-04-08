@@ -15,7 +15,7 @@ This portfolio has been created while attending the Triology Education Services'
 
 ## FEATURES
 
-There are five (5) pages to visit, which are:
+There are five (5) sections to visit, which are:
 
 1. Homepage
     - Introduction to me
@@ -36,7 +36,8 @@ There are five (5) pages to visit, which are:
 <br>
 
 ## PREVIEW
-![image](assests/Images/portfolio_preview.jpg)
+
+![portfolio preview](./assets/Images/Portfolio-preview.png)
 
 <br>
 

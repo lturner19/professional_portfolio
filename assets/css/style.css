@@ -24,7 +24,7 @@ h2 {
 }
 
 /* background styling for three pages */
-.portfolio,.contact, .about, .language {
+.portfolio, .contact, .about, .language {
     background-image: url("../Images/so-white.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -175,6 +175,12 @@ p {
     max-width: 980px;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+/* contact paragraphs and nav footer links */
+.contact-info, .col-sm-0 {
+    margin: 0px !important;
+    padding: 5px !important;
 }
 
 /* clipart */
