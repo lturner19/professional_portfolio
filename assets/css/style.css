@@ -5,8 +5,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     text-align: center;
-    
-    
 }
 
 html {
@@ -54,6 +52,11 @@ a:focus {
 color:#067389 !important;
 }
 
+/* dropdown menu */
+
+.dropdown-item{
+    text-align: center;
+}
 
 /* ------------Home page------------------------ */
 
