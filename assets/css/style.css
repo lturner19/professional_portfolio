@@ -54,11 +54,6 @@ a:focus {
 color:#067389 !important;
 }
 
-/* background of dropdown uniformly gray */
-.dropdown-menu, 
-.dropdown-item { 
-   background-color: #98999b;
-}
 
 /* ------------Home page------------------------ */
 
