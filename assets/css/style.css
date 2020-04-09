@@ -38,18 +38,11 @@ h2 {
 
 /*-----------------Navbar styling--------------- */
 
-/* Nav-link container */
-.banner {
-    background-color: #98999b;
-    color: #94d2dd;
-    height: 70px;
-}
-
 /* Styling links to other pages */
 .nav-link {
-    color:#94d2dd !important;
     font-family: 'Righteous', cursive;
     font-size: 18px;
+    color:#0cc6cd !important
 }
 
 /* Nav-link color change*/
@@ -58,7 +51,7 @@ a:active,
 a:hover,
 a:link,
 a:focus {
-color:#0cc6cd !important;
+color:#067389 !important;
 }
 
 /* background of dropdown uniformly gray */
@@ -266,21 +259,15 @@ h4, h5 {
 }
 
 @media only screen and (max-width: 400px){
-    .nav {
-        display: inline-block;
-    }
-    .home{
-        background-size: auto;
-    }
-    .img{
-        margin-left: 0px;
-    }
     .btn{
         margin-right: 90px;
     }
     .card-img-top{
         margin-left: 35%;
         margin-right: 50%;
+    }
+    #card{
+        margin-left: 0px;
     }
    
 }
