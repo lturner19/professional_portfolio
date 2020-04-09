@@ -21,39 +21,43 @@
 <body>
     <!----------------------- Navigational links ---------------------------------->
     <header>
-        <div class="banner">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown" id="nav-dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Resume</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="assets/LT_2020_Resume.pdf">PDF</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container text-center">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <a class="navbar-brand" href="index.html" id="logo"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown" id="nav-dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Resume</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="assets/LT_2020_Resume.pdf">PDF</a>
+                    </div>
+                </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+          </nav>
+          <!-- End of navbar -->
     </header>
 <!------------------ End of Navigational Links --------------------------->
 
@@ -114,8 +118,11 @@
                             </p>
                         </div>
                     </div>
+                    <!-- end of inner row -->
                 </div>
+                <!-- end of outer row -->
             </div>
+        <!--end of container-->
         </section>
 <!------------------------- End About section-------------------------------->
 
@@ -201,9 +208,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /.row -->
                 </div>
+                <!-- /.row -->
             </div>
+            <!-- end of container -->
         </section>
 <!------------------------- End Language section-------------------------------->
 
@@ -248,6 +256,8 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end of row -->
+
                     <div class="row">
                         <div class="col-sm-6 col-md-12 col-lg-6">
                             <img class="img" src="assets/Images/Start_quiz.jpg" alt="code quiz image">
@@ -278,6 +288,8 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end of row -->
+
                     <div class="row">
                         <div class="col-sm-6 col-md-12 col-lg-6">
                             <img class="img" src="assets/Images/pw_generator.jpg" alt="password generator image">
@@ -308,6 +320,8 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end of row -->
+
                     <div class="row">
                         <div class="col-sm-6 col-md-12 col-lg-6">
                             <img class="img" src="assets/Images/eat_burger_preview.jpg" alt="Happy Burger image">
@@ -338,15 +352,18 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end of row -->
                 </div>
+                <!-- end of row1 -->
             </div>
+            <!-- end of container -->
         </section>
         <!------------------------- End Portfolio page-------------------------------->
 
 <!------------------------- Begin contact page-------------------------------->
         <section class="contact">
             <div class="container" id="contact">
-                <div class="row" id="">
+                <div class="row">
                     <div class="col-sm-6" id="message-img">
                         <img class="question-img" src="assets/Images/2368872.jpg" alt="bubble with question mark" />
                     </div>
@@ -380,11 +397,14 @@
                             <button type="submit" class="btn btn-secondary btn-sm mt-2">Submit</button>
                         </form>
                     </div>
+                    <!-- end of form -->
                 </div>
+                <!-- end of row -->
             </div>
+            <!-- end of container -->
         </section>
 <!------------------------- End Contact section-------------------------------->
-
+ 
 <!------------------------- Begin Footer Section-------------------------------->
             <footer class="sticky-footer">
                 <div class="container">
@@ -396,6 +416,8 @@
                                         id="link"></i></a>
                             </div>
                         </div>
+                        <!-- end of column 1 -->
+
                         <div class="col-sm-0 col-md-6">
                             <nav class="footer-nav">
                                 <ul class="nav justify-content-end">
@@ -417,12 +439,17 @@
                                 </ul>
                             </nav>
                         </div>
+                        <!-- end of column 2 -->
+                        
                         <div class="col-sm-6 col-md-4">
                             <p class="contact-info"><i class="far fa-envelope"></i> lturner19@protonmail.com</p>
                             <p class="contact-info"><i class="fas fa-mobile-alt"></i> 512.673.6253</p>
                         </div>
+                        <!-- end of column 3 -->
                     </div>
+                    <!-- end of row -->
                 </div>
+                <!-- end of container -->
             </footer>
 
 <!-- jQuery CDN -->
