@@ -33,6 +33,25 @@ h2 {
 .col-md-12, #message, #message-img{
     margin-top: 50px;
 }
+/*Floating Back-To-Top Button*/
+#myBtn {
+    background-color: #cac9c7;
+    border-color: #98999b;
+    border-radius: 4px;
+    font-weight:bolder;
+    max-width: 50px;
+    width: 100%;
+    bottom: 70px;
+    float: right;
+    right: 18.5%;
+    left: 95%;
+    position: fixed;
+} 
+
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #fad4d1;
+} 
 
 /*-----------------Navbar styling--------------- */
 
@@ -52,8 +71,7 @@ a:focus {
 color:#067389 !important;
 }
 
-/* dropdown menu */
-
+/* dropdown menu over-riding bootstraps styling*/
 .dropdown-item{
     text-align: center;
 }
@@ -189,6 +207,7 @@ p {
     margin: 0px;
 }
 
+
 /* ------------Begin footer----------- */
 
 footer{
@@ -229,26 +248,6 @@ h4, h5 {
     display: inline-block;
 }
 
-/* was used when everything was on one page */
-/*Floating Back-To-Top Button*/
-/* #myBtn {
-    background-color: #cac9c7;
-    border-color: #98999b;
-    border-radius: 4px;
-    font-weight:bolder;
-    max-width: 50px;
-    width: 100%;
-    bottom: 70px;
-    float: right;
-    right: 18.5%;
-    left: 95%;
-    position: fixed;
-} */
-
-/*On Hover Color Change*/
-/* #myBtn:hover {
-    background-color: #8fd0ca;
-} */
 
 @media only screen and (max-width: 982px){
     .home{
