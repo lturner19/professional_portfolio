@@ -277,4 +277,8 @@ h4, h5 {
   .footer-nav{
       display:none;
   }
+
+  #mybtn{
+      display:none;
+  }
 }
