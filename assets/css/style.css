@@ -267,6 +267,9 @@ h4, h5 {
         margin-left: 0px;
     }
    
+    #myBtn {
+        display:none;
+    }
 }
  
 @media only screen and (min-width: 402px){
@@ -277,15 +280,8 @@ margin-left: 150px;
 } 
 
 @media only screen and (max-width: 768px){
-  #myBtn {
-      left: 90%;
-  }
 
   .footer-nav{
-      display:none;
-  }
-
-  #mybtn{
       display:none;
   }
 }
