@@ -125,6 +125,10 @@ p {
   position: relative;
 }
 
+.card-body{
+    padding: 0px;
+}
+
 /* card text */
 .card-title{
     text-align: center;
@@ -143,7 +147,7 @@ p {
 
 #card{
     margin-right: 0px;
-    margin-left: 130px;
+    margin-left: 30px;
 }
 
 /* ----------portfolio section------------------- */
