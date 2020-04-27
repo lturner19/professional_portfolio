@@ -12,6 +12,8 @@ html {
     min-height: 100%;
 }
 
+
+
 /* headers for about, portfolio, contact pages */
 h2 {
     color:#203a55;
@@ -35,7 +37,7 @@ h2 {
 }
 /*Floating Back-To-Top Button*/
 #myBtn {
-    background-color: #cac9c7;
+    background-color: #203a55;
     border-color: #98999b;
     border-radius: 4px;
     font-weight:bolder;
@@ -59,7 +61,7 @@ h2 {
 .nav-link {
     font-family: 'Righteous', cursive;
     font-size: 18px;
-    color:#0cc6cd !important
+    color: #485868 !important;
 }
 
 /* Nav-link color change*/
@@ -68,7 +70,7 @@ a:active,
 a:hover,
 a:link,
 a:focus {
-color:#067389 !important;
+color:#9aaaba !important;
 }
 
 /* dropdown menu over-riding bootstraps styling*/
